@@ -16,6 +16,7 @@ h1 {
     width: 45%;
 }
 .left {
+    border-color: red;
     float: left;
 }
 .right {
