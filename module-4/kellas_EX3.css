@@ -5,15 +5,48 @@
     Style sheet for index.html
  */
 h1 {
+    font-family: Oswald, Verdana, Arial, sans-serif;
     text-align: center;
 }
-.left {
+
+.left, .right {
+    border: 1px;
+    border-radius: 15px;
+    font-family: Oswald, Verdana, Arial, sans-serif;
     width: 45%;
 }
 .right {
-    width: 45%;
+    border-style: dashed;
 }
+
+h3 {
+    font-weight: 500;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding: 10px;
+}
+ul {
+    list-style: upper-roman;
+}
+
+li {
+    font-weight: 300;
+}
+
 .last {
+    float: right;
+    margin-bottom: 20px;
     margin-top: 60%;
     width: 100%;
+
+}
+
+a {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
