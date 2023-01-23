@@ -1,0 +1,19 @@
+/*  Bryce Kellas
+    Module 4.3
+    1/22/2023
+
+    Style sheet for index.html
+ */
+h1 {
+    text-align: center;
+}
+.left {
+    width: 45%;
+}
+.right {
+    width: 45%;
+}
+.last {
+    margin-top: 60%;
+    width: 100%;
+}
