@@ -15,8 +15,12 @@ h1 {
     font-family: Oswald, Verdana, Arial, sans-serif;
     width: 45%;
 }
+.left {
+    float: left;
+}
 .right {
     border-style: dashed;
+    float: right;
 }
 
 h3 {
